@@ -14,8 +14,6 @@ All files are structured, validated, and optimized using standardized convention
 * Contact:
   * LinkedIn: https://www.linkedin.com/in/singh-prabhjeet
   * Email: prabhjeetsingh1@acm.org
-  * Phone: +91 62023 66032
-
 ---
 
 ## Directory Organization
