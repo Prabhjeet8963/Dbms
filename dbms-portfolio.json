@@ -1,0 +1,111 @@
+{
+  "portfolio_name": "Database Systems Engineering Portfolio",
+  "developer": {
+    "name": "Prabhjeet Singh",
+    "education": "B.Tech in Computer Science",
+    "institution": "UPES Dehradun",
+    "acm_chapter_role": "CSR Head, UPES ACM Chapter",
+    "contacts": {
+      "linkedin": "https://www.linkedin.com/in/singh-prabhjeet",
+      "email": "prabhjeetsingh1@acm.org",
+      "phone": "+916202366032"
+    }
+  },
+  "database_environments": {
+    "rdbms": {
+      "engine": "MySQL",
+      "competencies": [
+        "DDL Schema Definition",
+        "Referential Constraints (PK/FK/CHECK/NOT NULL)",
+        "Multi-way Relational Joins",
+        "Nested and Correlated Subqueries",
+        "Relational Division (Universal Quantification)",
+        "Aggregate Grouping (GROUP BY / HAVING)",
+        "Date-Time Arithmetic (DATE_ADD)",
+        "Scalar Casing Functions (UPPER/LOWER)"
+      ],
+      "projects": [
+        {
+          "name": "01-company-database",
+          "description": "Corporate employee supervision and project mapping schema. Highlights double-nested NOT EXISTS relational division.",
+          "tables": ["EMPLOYEE", "DEPARTMENT", "DEPT_LOCATIONS", "PROJECT", "WORKS_ON", "DEPENDENT"],
+          "path": "DBMS/mysql/01-company-database"
+        },
+        {
+          "name": "02-company-sales",
+          "description": "Accounts receivable, salesman commissions, and catalog margins. Details dynamic column expansions and sell price check bounds.",
+          "tables": ["CLIENT_MASTER", "PRODUCT_MASTER", "SALESMAN_MASTER"],
+          "path": "DBMS/mysql/02-company-sales",
+          "specifications_docx": "sales-database-requirements.docx"
+        },
+        {
+          "name": "03-supplier-inventory",
+          "description": "Supplier distributions resolved using dynamic average cost evaluations and nested comparative subqueries.",
+          "tables": ["Supplier", "Part", "Supplier_Part"],
+          "path": "DBMS/mysql/03-supplier-inventory",
+          "specifications_docx": "supplier-inventory-requirements.docx"
+        },
+        {
+          "name": "04-student-athletics",
+          "description": "Athlete play schedules using composite event assignments and grouping thresholds.",
+          "tables": ["Student", "Matches", "Play"],
+          "path": "DBMS/mysql/04-student-athletics",
+          "specifications_docx": "student-athletics-requirements.docx"
+        },
+        {
+          "name": "05-inbuilt-functions",
+          "description": "Department HR analytics, co-hiring joins, and case/date modifications.",
+          "tables": ["EMP", "DEPT"],
+          "path": "DBMS/mysql/05-inbuilt-functions",
+          "specifications_docx": "inbuilt-functions-requirements.docx"
+        }
+      ]
+    },
+    "nosql": {
+      "engine": "MongoDB",
+      "competencies": [
+        "Dynamic Schema Document Design",
+        "Hierarchical Subdocument Embedding",
+        "Dot-Notation Nested Traversals",
+        "Field Projections",
+        "Compound Logical Query Arrays ($and)",
+        "Cursor Sorting and Limits"
+      ],
+      "projects": [
+        {
+          "name": "01-hotel-management",
+          "description": "Schema-less hotel directory with embedded addresses and inspection histories.",
+          "collections": ["hotel"],
+          "path": "DBMS/nosql-mongodb/01-hotel-management",
+          "specifications_docx": "hotel-database-requirements.docx"
+        }
+      ]
+    },
+    "conceptual_design": {
+      "frameworks": ["Chen ER Notation", "Crow's Foot Notation", "Mermaid.js Models"],
+      "competencies": [
+        "Recursive Unary Supervisors",
+        "Weak Entity Identifier Mappings",
+        "Many-to-Many Relationship Attributes",
+        "Ternary Event Associations"
+      ],
+      "projects": [
+        {
+          "name": "nhl-league",
+          "description": "NHL sports database modeling recursive home/guest matches and weak player injury logs.",
+          "path": "DBMS/er-diagrams/nhl-league"
+        },
+        {
+          "name": "university-registrar",
+          "description": "University registrar mapping structural courses, weak sections, and ternary grade report cards.",
+          "path": "DBMS/er-diagrams/university-registrar"
+        },
+        {
+          "name": "company-dbms",
+          "description": "Corporate supervision recursive loops, many-to-many hours, and dependent cascades.",
+          "path": "DBMS/er-diagrams/company-dbms"
+        }
+      ]
+    }
+  }
+}

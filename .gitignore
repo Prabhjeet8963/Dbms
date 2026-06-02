@@ -1,0 +1,28 @@
+# Python caches & virtualenvs
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.ipynb_checkpoints/
+
+# IDE configurations
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# System files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Temporary outputs & logs
+*.log
+scratch/
+verify_portfolio.py
